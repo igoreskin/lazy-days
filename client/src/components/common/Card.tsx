@@ -49,7 +49,7 @@ export function Card({
           </Text>
         </Box>
         <Stack pt={10}>
-          <Heading align="center" fontSize="2xl">
+          <Heading fontSize="2xl" textAlign="center">
             {itemName}
           </Heading>
           {cardContents}
@@ -58,3 +58,5 @@ export function Card({
     </Center>
   );
 }
+
+// align="center"
